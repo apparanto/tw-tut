@@ -1,0 +1,14 @@
+{
+  "name": "tw02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write '**/*.html'"
+  },
+  "author": "Robert Portier | apparanto.com",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.6"
+  }
+}
